@@ -1,0 +1,31 @@
+{
+  "name": "react-native-fullpage-autocomplete",
+  "version": "0.1.0",
+  "description": "A simple fullpage autocomplete for react navtive projects (ios + android)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadavoran/react-native-fullpage-autocomplete.git"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "autocomplete",
+    "auto-complete"
+  ],
+  "author": "nadavoran <nadavoran@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-native": ">=0.53.0"
+  },
+  "bugs": {
+    "url": "https://github.com/nadavoran/react-native-fullpage-autocomplete/issues"
+  },
+  "homepage": "https://github.com/nadavoran/react-native-fullpage-autocomplete#readme",
+  "dependencies": {}
+}
