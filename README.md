@@ -1,4 +1,5 @@
 # react-native-fullpage-autocomplete
 A full page autoComplete
 
-![Alt Text](./Autocomplete.gif)
+<img src="./Autocomplete.gif" alt="autocomplete-video width="200" />
+
