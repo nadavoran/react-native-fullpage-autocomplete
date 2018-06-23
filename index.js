@@ -56,14 +56,14 @@ export class AutoComplete extends Component {
                                 this.props.automationTestPrefix
                                 }-autocomplete-modal-clear-input`}
                             onPress={() => {
-                                this.onChangeText("");
+                                this.onClose();
                                 // this.setState({ searchData: "" });
                             }}
                         >
                             {
                                 this.props.renderBackElement ?
                                     this.props.renderBackElement() :
-                                    <Text style={styles.buttonStyle}>{'<'}</Text>
+                                    <Text style={[styles.buttonStyle, styles.backButton]}>{'<'}</Text>
                             }
                         </TouchableHighlight>
                     </View>
@@ -102,7 +102,7 @@ export class AutoComplete extends Component {
                                     this.props.renderClearElement() :
                                     <Text style={styles.buttonStyle}>{'X'}</Text>
                                 }
-                                {/*<Icon name={"close"} width={10} height={10} fill={textColors.onDark}/>*/}
+                                {/*<Icon name={"close"} size={16} color={"white"}/>*/}
                             </TouchableHighlight>
                         ) : null}
                     </View>
@@ -258,5 +258,8 @@ const styles = StyleSheet.create({
     },
     buttonStyle:{
         color: "white"
+    },
+    backButton: {
+        paddingTop: 15
     }
 });
